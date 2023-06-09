@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animated clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas" width="500" height="500"></canvas>
+      <div id="change-clock-style">
+        <h1>Clock Style</h1>
+        <form action="#" id="clock-input-form">
+          <div class="form-input">
+            <label for="face-color">Face color</label>
+            <input type="color" name="face-color" id="face-color" value="#c4d4c4" />
+          </div>
+          <div class="form-input">
+            <label for="border-color">Border color</label>
+            <input type="color" name="border-color" id="border-color" value="#800000" />
+          </div>
+          <div class="form-input">
+            <label for="number-lines-color">Number Lines color</label>
+            <input type="color" name="number-lines-color" id="number-lines-color" value="#000000" />
+          </div>
+          <div class="form-input">
+            <label for="large-hands-color">Large Hands color</label>
+            <input type="color" name="large-hands-color" id="large-hands-color" value="#800000" />
+          </div>
+          <div class="form-input">
+            <label for="second-hand-color">Second Hand color</label>
+            <input type="color" name="second-hand-color" id="second-hand-color" value="#FF7F50" />
+          </div>
+          <div class="form-input">
+            <button type="submit" class="btn" id="save-btn">Save as image</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
